@@ -13,8 +13,8 @@
 
 ## Table of contents
 - [Table of contents](#table-of-contents)
-- [Commits](#commits)
-- [Pull Requests](#pull-requests)
+- [[](#commits)Commits](#commitscommits)
+- [[](#pull-requests)Pull Requests](#pull-requestspull-requests)
 
 
 ## [](#commits)Commits
@@ -43,4 +43,4 @@
 
 
 SPDX-License-Identifier: (EUPL-1.2)
-Copyright © 2020 Florian Kleber
+Copyright © 2019-2020 Simon Prast

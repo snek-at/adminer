@@ -8,7 +8,7 @@
 
 ## Table of contents
 - [Table of contents](#table-of-contents)
-- [Conflicts](#conflicts)
+- [[](#conflicts)Conflicts](#conflictsconflicts)
 
 ## [](#conflicts)Conflicts
 
@@ -27,4 +27,4 @@ words of Bill and Ted, "Be excellent to each other."
 
 
 SPDX-License-Identifier: (EUPL-1.2)
-Copyright © 2020 Florian Kleber
+Copyright © 2019-2020 Simon Prast
