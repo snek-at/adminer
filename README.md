@@ -1,4 +1,4 @@
-# Repository-Template
+# repository-template
 
 This repository serves as an entry point for all my future projects.
 
