@@ -61,3 +61,6 @@ ENTRYPOINT ["/sbin/tini", "--", "/docker-entrypoint.sh"]
 USER adminer
 
 CMD	[ "php", "-S", "[::]:8888", "-t", "/var/www/html" ]
+
+# SPDX-License-Identifier: (EUPL-1.2)
+# Copyright © 2019-2020 Simon Prast
