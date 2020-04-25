@@ -1,9 +1,13 @@
 version: '3.1'
+
 services:
   adminer:
+    #image: adminer/latest
     build: .
+    networks:
+      - "${AD_NW}"
     ports:
-      - "8888:8888"
+      - "${AD_PORT}:8888"
 
 # SPDX-License-Identifier: (EUPL-1.2)
 # Copyright © 2019-2020 Simon Prast
