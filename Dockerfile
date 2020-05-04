@@ -6,8 +6,8 @@ LABEL description "Lightweight standalone Adminer container based on Alpine Linu
 MAINTAINER Florian Kleber <kleberbaum@erebos.xyz>
 
 # Adminer change here to desired version
-ARG ADMINER_VERSION=4.6.3
-ARG ADMINER_SHA256=aa4a60ae2d1d0401cf26282451db8e57a1a66622e8048cdb3fd3a6db1f0f24e2
+ARG ADMINER_VERSION=4.7.6
+ARG ADMINER_SHA256=a136594a415918319e9d963784d388f03df90831796c5ac2b778d4321a99d473
 
 # Theme change here to desired version
 ARG ADMINER_THEME=pepa-linha
@@ -35,7 +35,7 @@ RUN echo "## Installing base ##" && \
     && mkdir -p /var/www/html/plugins-enabled \
     \
     && echo "## Download and install adminer and alternative design ##" \
-    && ADMINER_FILE="adminer-${ADMINER_VERSION}.php" \
+    && ADMINER_FILE="adminer-${ADMINER_VERSION}-en.php" \
     && wget "https://github.com/vrana/adminer/releases/download/v${ADMINER_VERSION}/${ADMINER_FILE}" \
     && wget -q "https://raw.githubusercontent.com/vrana/adminer/master/designs/${ADMINER_THEME}/adminer.css" -P /var/www/html \
     && echo "Verifying integrity of ${ADMINER_FILE}..." \
