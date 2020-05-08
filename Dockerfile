@@ -48,9 +48,6 @@ RUN echo "## Installing base ##" && \
 
 EXPOSE 8888
 
-# add license
-ADD LICENSE /
-
 # deploy init script
 ADD docker-entrypoint.sh /
 
