@@ -6,8 +6,8 @@ LABEL description "Lightweight standalone Adminer container based on Alpine Linu
 MAINTAINER Florian Kleber <kleberbaum@erebos.xyz>
 
 # Adminer change here to desired version
-ARG ADMINER_VERSION=4.7.6
-ARG ADMINER_SHA256=a136594a415918319e9d963784d388f03df90831796c5ac2b778d4321a99d473
+ARG ADMINER_VERSION=4.7.7
+ARG ADMINER_SHA256=8b05028901fc7dc486cefcf660c103ceb27f588fcbde2952d31264584a4384ab
 
 # Theme change here to desired version
 ARG ADMINER_THEME=pepa-linha
